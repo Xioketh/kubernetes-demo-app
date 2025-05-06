@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kube-demo-config
+  labels:
+    app: kube-demo
+data:
+  environment: "demonstration"
+  version: "1.0.0"
+  creator: "Kubernetes enthusiast"
